@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.alphacoders.com/102/1026345.jpg);
+    background-size: cover;
+}
+#nav{
+     height: 10%;
+     width: 100%;
+     border: 2px solid black;
+     padding: 0px 5px;
+     border-radius: 30px;
+     display: flex;
+     justify-content: space-between;
+     font-weight: 300;
+}
+#navpart1{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+}
+#navpart3{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3%;
+}
+#navpart2{
+    vertical-align: middle;
+}
+#navpart1 h3 {
+    font-size: 25px;
+    border: 2px solid black;
+    height: 35px;
+    align-items: center; 
+    border-radius: 60px;
+}
+#navpart3 h3{
+    font-size: 25px;
+    border: 2px solid black;   
+    height: 35px;
+    align-items: center; 
+    border-radius: 60px;
+}
+#content h1{
+    font-size: 70px;
+    margin-top: 19%;
+    margin-left: 5.5%;
+    line-height: 70px;
+    font-weight: 300;
+}
+#ending h3{
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 7%;
+    font-weight: 300;
+}
+#icons{
+    height: 10%;
+    font-size: 35px;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 8px;
+}
+#icons i{
+    border: 3px solid black;
+    border-radius: 15px;
+}
